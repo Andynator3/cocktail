@@ -1,0 +1,17 @@
+<nav>
+  <a class="simple-link" [routerLink]="['/']">Retour Accueil</a>
+  <ul id="sidemenu">
+    <li><a [routerLink]="['dashboard']">Dashboard</a></li>
+    <li>>User</li>
+    <ul>
+      <li><a [routerLink]="['user']">Liste des utilisateurs </a></li>
+      <li><a [routerLink]="['user/add']">Ajouter un utilisateur </a></li>
+    </ul>
+    <li>>Cocktail</li>
+    <ul>
+      <li><a [routerLink]="['cocktail']">Liste des cocktails </a></li>
+      <li><a [routerLink]="['cocktail/add']">Ajouter un cocktail </a></li>
+    </ul>
+  </ul>
+</nav>
+
